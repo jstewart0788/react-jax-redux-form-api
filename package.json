@@ -1,0 +1,16 @@
+{
+  "name": "redux-form-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "mongoose": "^4.9.3",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0"
+  }
+}
