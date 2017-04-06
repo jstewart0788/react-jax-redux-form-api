@@ -6,8 +6,8 @@ var Game = require('../models/game');
 mongoose.connect('mongodb://localhost/react-jax');
 
 router.post('/game', function(req, res) {
-  console.log(req.body)
-  var game = new Game(req.body);
+  console.log(req.body.data)
+  var game = new Game(req.body.data);
   game.save(function(err, data) {
     if (err)
       res.send(err);
