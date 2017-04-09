@@ -4,7 +4,7 @@ Schema = mongoose.Schema;
 
 var Game = new Schema({
   game: String,
-  location: String,
+  email: String,
   lead: String,
   currentPlayers: Number,
   playersNeeded: Number,
